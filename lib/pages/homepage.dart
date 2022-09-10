@@ -54,32 +54,35 @@ class _HomePageState extends State<HomePage> {
           ),
           actions: [
             const Icon(Icons.search, color: Colors.white,),
-            PopupMenuButton(
-                elevation: 5,
-                splashRadius: 5,
-                icon: const Icon(Icons.more_vert_outlined, color: Colors.white,),
-                itemBuilder: (context) => const [
-                  PopupMenuItem(
-                      value: 1,
-                      child: Text('New group')
-                  ),
-                  PopupMenuItem(
-                      value: 1,
-                      child: Text('New broadcast')
-                  ),
-                  PopupMenuItem(
-                      value: 1,
-                      child: Text('linked devices')
-                  ),
-                  PopupMenuItem(
-                      value: 1,
-                      child: Text('Starred messages')
-                  ),
-                  PopupMenuItem(
-                      value: 1,
-                      child: Text('Setings')
-                  )
-                ]
+            Theme(
+              data: Theme.of(context).copyWith(useMaterial3: false),
+              child: PopupMenuButton(
+                  elevation: 5,
+                  splashRadius: 5,
+                  icon: const Icon(Icons.more_vert_outlined, color: Colors.white,),
+                  itemBuilder: (context) => const [
+                    PopupMenuItem(
+                        value: 1,
+                        child: Text('New group')
+                    ),
+                    PopupMenuItem(
+                        value: 1,
+                        child: Text('New broadcast')
+                    ),
+                    PopupMenuItem(
+                        value: 1,
+                        child: Text('linked devices')
+                    ),
+                    PopupMenuItem(
+                        value: 1,
+                        child: Text('Starred messages')
+                    ),
+                    PopupMenuItem(
+                        value: 1,
+                        child: Text('Setings')
+                    )
+                  ]
+              ),
             )
           ],
         ),
