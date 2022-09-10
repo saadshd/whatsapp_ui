@@ -70,13 +70,13 @@ class _StatusState extends State<Status> {
                         width: 2
                     )
                 ),
-                child: CircleAvatar(
+                child: const CircleAvatar(
                   backgroundImage: NetworkImage('https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&w=600'),
                 ),
               ),
           ),
-          title: Text('Saad'),
-          subtitle: Text('31 minutes ago'),
+          title: const Text('Saad'),
+          subtitle: const Text('31 minutes ago'),
           ),
           ListTile(
             leading: Container(
@@ -95,13 +95,13 @@ class _StatusState extends State<Status> {
                         width: 2
                     )
                 ),
-                child: CircleAvatar(
+                child: const CircleAvatar(
                   backgroundImage: NetworkImage('https://images.pexels.com/photos/1563256/pexels-photo-1563256.jpeg?auto=compress&cs=tinysrgb&w=600'),
                 ),
               ),
             ),
-            title: Text('Khubaib'),
-            subtitle: Text('Today, 1:30 PM'),
+            title: const Text('Khubaib'),
+            subtitle: const Text('Today, 1:30 PM'),
           ),
           ListTile(
             leading: Container(
@@ -120,15 +120,15 @@ class _StatusState extends State<Status> {
                         width: 2
                     )
                 ),
-                child: CircleAvatar(
+                child: const CircleAvatar(
                   backgroundImage: NetworkImage('https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=600'),
                 ),
               ),
             ),
-            title: Text('Shahid'),
-            subtitle: Text('Yesterday, 4:57 PM'),
+            title: const Text('Shahid'),
+            subtitle: const Text('Yesterday, 4:57 PM'),
           ),
-          Padding(
+          const Padding(
             padding: EdgeInsets.fromLTRB(20, 5, 0, 0),
             child: Text('Viewed updates',
             style: TextStyle(
@@ -154,13 +154,13 @@ class _StatusState extends State<Status> {
                         width: 2
                     )
                 ),
-                child: CircleAvatar(
+                child: const CircleAvatar(
                   backgroundImage: NetworkImage('https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=600'),
                 ),
               ),
             ),
-            title: Text('Ali'),
-            subtitle: Text('Yesterday, 3:29 PM'),
+            title: const Text('Ali'),
+            subtitle: const Text('Yesterday, 3:29 PM'),
           ),
           ListTile(
             leading: Container(
@@ -179,13 +179,13 @@ class _StatusState extends State<Status> {
                         width: 2
                     )
                 ),
-                child: CircleAvatar(
+                child: const CircleAvatar(
                   backgroundImage: NetworkImage('https://images.pexels.com/photos/9953654/pexels-photo-9953654.jpeg?auto=compress&cs=tinysrgb&w=600'),
                 ),
               ),
             ),
-            title: Text('Yousaf'),
-            subtitle: Text('Yesterday, 8:18 AM'),
+            title: const Text('Yousaf'),
+            subtitle: const Text('Yesterday, 8:18 AM'),
           ),
     ]
 
