@@ -30,7 +30,7 @@ class _ChatsState extends State<Chats> {
           ),
           ListTile(
             leading: CircleAvatar(
-              backgroundImage: NetworkImage('https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBpY3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60'),
+              backgroundImage: NetworkImage('https://images.pexels.com/photos/1080213/pexels-photo-1080213.jpeg?auto=compress&cs=tinysrgb&w=600'),
             ),
             title: Text('Shahid'),
             subtitle: Text('I\'ll be on time'),
